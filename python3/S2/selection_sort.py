@@ -30,8 +30,3 @@ def selection_sort(vals, direction):
             j = find_biggest(values)
         result.append( values.pop(j))
     return result
-
-
-vals = [3,6,5,4,1]
-print(selection_sort(vals,True))
-print(selection_sort(vals,False))
